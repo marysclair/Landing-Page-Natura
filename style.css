@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    min-height: 100vh;
+    background-image: url(fundo-cabecalho.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#procurar{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid gray;
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 5%;
+    cursor:text;
+}
+#procurar > p{
+    font-size: 0.8rem;
+    color: grey;
+    margin:0;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+#procurar > img{
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:3%;
+    cursor: pointer;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition-duration: 0.5s;
+    color: white;
+    /* text-decoration: underline;
+    text-decoration-line: underline; */
+    text-decoration-color: white;
+}
+
+#menu > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 45px;
+    margin-left: auto;
+    margin-right: 15%;
+}
+
+#menu > ul > li{
+    /* border-bottom: 2px solid white; */
+    font-weight: 500;
+    font-size: 1.35rem;
+    transition-duration: 0.2s;
+}
+#menu > ul > li:hover{
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+#logo{
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-bottom:1%;
+    width: 6%;
+    cursor: pointer;
+}
+
+#menu:hover{
+    background-color: white;
+    color: #FF6C0E;
+    text-decoration-color: #FF6C0E;
+    transition-duration: 0.5s;
+}
+
+#conteudo{
+    margin-top:12%;
+    margin-left: 4%;
+    width:35%;
+}
+#conteudo > h2{
+    margin:0;
+    color:#FF6C0E;
+    text-transform:uppercase;
+    font-size:2rem;
+    font-weight:900;
+    cursor: default;
+}
+#conteudo > h3{
+    margin:0;
+    font-size:1.7rem;
+    color: white;
+    font-weight:300;
+    margin-bottom:10%;
+    cursor: default;
+}
+
+#conteudo > p{
+    font-weight:600;
+    color: white;
+    padding: 5px;
+    width: 28%;
+    background-color:#FF6C0E;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* #menu > ul:hover{
+    color: #FF6C0E;
+    transition-duration: 500ms;
+} */
